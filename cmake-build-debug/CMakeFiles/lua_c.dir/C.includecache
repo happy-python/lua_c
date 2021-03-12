@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jack/CLionProjects/lua_c/lib/lua/src/lauxlib.h
+stddef.h
+-
+stdio.h
+-
+lua.h
+/Users/jack/CLionProjects/lua_c/lib/lua/src/lua.h
+
+/Users/jack/CLionProjects/lua_c/lib/lua/src/lua.h
+stdarg.h
+-
+stddef.h
+-
+luaconf.h
+/Users/jack/CLionProjects/lua_c/lib/lua/src/luaconf.h
+
+/Users/jack/CLionProjects/lua_c/lib/lua/src/luaconf.h
+limits.h
+-
+stddef.h
+-
+stdint.h
+-
+assert.h
+-
+
+/Users/jack/CLionProjects/lua_c/lib/lua/src/lualib.h
+lua.h
+/Users/jack/CLionProjects/lua_c/lib/lua/src/lua.h
+
+/Users/jack/CLionProjects/lua_c/main.c
+lib/lua/src/lua.h
+/Users/jack/CLionProjects/lua_c/lib/lua/src/lua.h
+lib/lua/src/lualib.h
+/Users/jack/CLionProjects/lua_c/lib/lua/src/lualib.h
+lib/lua/src/lauxlib.h
+/Users/jack/CLionProjects/lua_c/lib/lua/src/lauxlib.h
+
